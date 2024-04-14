@@ -22,12 +22,6 @@ public class QuestManager : Singleton<QuestManager>
         GetCurrentRepeatQuest().OnCompleteRepeatQuest += ChangeCurrentRepeatQuest;
     }
 
-    //public void UpdateQuest(string id, int value)
-    //{
-    //    if (!_questDic.ContainsKey(id)) return;
-    //    _questDic[id].UpdateQuestValue(value);
-    //}
-
     public List<Quest> GetQuestList(QuestType type)
     {
         if (!_questDic.ContainsKey(type)) return null;

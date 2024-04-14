@@ -8,8 +8,6 @@ public class PlayerStateMachine : StateMachine
     public PlayerRangedAttackState RangedAttackState { get; }
     public PlayerDieState DieState { get; }
 
-    public int ComboIndex { get; set; }
-
     public PlayerStateMachine(Player player) : base(player)
     {
         Player = player;

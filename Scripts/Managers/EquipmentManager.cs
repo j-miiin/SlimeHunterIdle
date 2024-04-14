@@ -93,9 +93,6 @@ public class EquipmentManager : Singleton<EquipmentManager>
 
     public void Equip(int id, EquipmentType type)
     {
-        //if (!_allEquipmentDic.ContainsKey(equipName)) return;
-        //_player.Equip(_allEquipmentDic[equipName]);
-        //_dataHandler.SaveEquipmentList(_allEquipmentDic[equipName].DataSO.Type);
         switch (type)
         {
             case EquipmentType.Fist:
