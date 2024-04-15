@@ -29,11 +29,6 @@ public class Player : PixelCharacter
     public EnhancedAttack FistEnhancedAttack { get; private set; }
     public EnhancedAttack BowEnhancedAttack { get; private set; }
 
-    // Skill
-    //public Skill EquippedFistSkill { get; private set; }
-    //public Skill EquippedBowSkill { get; private set; }
-    //public Skill EquippedPassiveSkill { get; private set; }
-
     public int EnhancedAttackCount { get; private set; } = 7;
 
     private PlayerDataHandler _playerDataHandler;
@@ -79,11 +74,10 @@ public class Player : PixelCharacter
         OnLevelUpdate?.Invoke();
     }
 
-    #region Equip/UnEquip Equipment and Skill
+    #region Equip/UnEquip Equipment
     // Equipment
     public void Equip(Equipment equipment)
     {
-        // TODO 스탯 증가 로직 추가
         switch (equipment.DataSO.Type)
         {
             case EquipmentType.Fist:
@@ -118,7 +112,6 @@ public class Player : PixelCharacter
 
     public void UnEquip(EquipmentType type)
     {
-        // TODO 스탯 감소 로직 추가
         switch (type)
         {
             case EquipmentType.Fist:
@@ -151,48 +144,6 @@ public class Player : PixelCharacter
                 break;
         }
     }
-
-    // Skill
-    //public void Equip(Skill skill)
-    //{
-    //    // TODO 스탯 증가 로직 추가
-    //    switch (skill.DataSO.SkillEquipType)
-    //    {
-    //        case SkillEquipType.Fist:
-    //            UnEquip(SkillEquipType.Fist);
-    //            EquippedFistSkill = skill;
-    //            break;
-    //        case SkillEquipType.Bow:
-    //            UnEquip(SkillEquipType.Bow);
-    //            EquippedBowSkill = skill;
-    //            break;
-    //        case SkillEquipType.Passive:
-    //            UnEquip(SkillEquipType.Passive);
-    //            EquippedPassiveSkill = skill;
-    //            break;
-    //    }
-    //    skill.Equip();
-    //}
-
-    //public void UnEquip(SkillEquipType type)
-    //{
-    //    // TODO 스탯 감소 로직 추가
-    //    switch (type)
-    //    {
-    //        case SkillEquipType.Fist:
-    //            if (EquippedFistSkill != null) EquippedFistSkill.UnEquip();
-    //            EquippedFistSkill = null;
-    //            break;
-    //        case SkillEquipType.Bow:
-    //            if (EquippedBowSkill != null) EquippedBowSkill.UnEquip();
-    //            EquippedBowSkill = null;
-    //            break;
-    //        case SkillEquipType.Passive:
-    //            if (EquippedPassiveSkill != null) EquippedPassiveSkill.UnEquip();
-    //            EquippedPassiveSkill = null;
-    //            break;
-    //    }
-    //}
     #endregion
 
     private void InitPlayerInfo()

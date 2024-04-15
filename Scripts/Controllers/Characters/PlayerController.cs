@@ -164,31 +164,4 @@ public class PlayerController : PixelCharacterController
         if (isOccur < prob * (digit * 0.01)) return true;
         else return false;
     }
-
-    #region Old Codes
-    //public IEnumerator COCloseAttack()
-    //{
-    //    _totalAttackTime = _tempSpeed;
-    //    while (true)
-    //    {
-    //        _attackElapsedTime += Time.deltaTime;
-    //        yield return null;
-
-    //        if (_attackElapsedTime < _totalAttackTime)
-    //        {
-    //            float angle = (_attackElapsedTime / _totalAttackTime) * 180f;
-    //            float radian = angle * Mathf.Deg2Rad;
-
-    //            // 새 위치 계산 (x축과 y축을 사용)
-    //            Vector3 newPosition = new Vector3(-Mathf.Sin(radian), Mathf.Cos(radian), 0) * _radius;
-    //            _closeAttackCollider.transform.localPosition = newPosition;
-    //        }
-    //        else
-    //        {
-    //            _attackElapsedTime = 0; // 경과 시간 초기화
-    //            yield break;
-    //        }
-    //    }
-    //}
-    #endregion
 }
