@@ -42,7 +42,7 @@
 
 #### 클릭하면 자세한 내용을 확인할 수 있습니다🏹
 
-[<img width="260" alt="Hunt" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/a1097219-87a8-4409-a06a-b4d80ac740f2">]()
+[<img width="260" alt="Hunt" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/a1097219-87a8-4409-a06a-b4d80ac740f2">](/GameContentsDescription/자동%20전투%20시스템과%20무기%20스위칭.md)
 [<img width="260" alt="Training" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/be15ba5d-da61-474c-b11c-66fc895d73d3">]()
 [<img width="260" alt="Equipment" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/14d08d8c-cde1-4ec9-99c9-9194cf99fb23">]()  
 [<img width="260" alt="Skill" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/6314911e-0b35-493a-a895-dc99eea33628">]()
