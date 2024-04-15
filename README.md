@@ -36,7 +36,18 @@
 <br><br>
 
 # 게임 콘텐츠
-![게임 소개 이미지](https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/835876a6-2d62-4f17-863e-20fc4e8498ec)
+[<img width="800" alt="Hunt" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/835876a6-2d62-4f17-863e-20fc4e8498ec">]()
+
+<br><br>
+
+#### 클릭하면 자세한 내용을 확인할 수 있습니다🏹
+
+[<img width="260" alt="Hunt" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/a1097219-87a8-4409-a06a-b4d80ac740f2">]()
+[<img width="260" alt="Training" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/be15ba5d-da61-474c-b11c-66fc895d73d3">]()
+[<img width="260" alt="Equipment" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/14d08d8c-cde1-4ec9-99c9-9194cf99fb23">]()  
+[<img width="260" alt="Skill" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/6314911e-0b35-493a-a895-dc99eea33628">]()
+[<img width="260" alt="Summon" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/e84a11eb-1743-4ab9-80e3-da7936b133ad">]()
+[<img width="260" alt="Dungeon" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/8806186e-e127-4b22-b097-828529e050e8">]()
 
 <br><br>
 
