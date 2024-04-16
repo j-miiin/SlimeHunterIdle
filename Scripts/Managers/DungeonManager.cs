@@ -41,13 +41,4 @@ public class DungeonManager : Singleton<DungeonManager>
     {
 
     }
-
-    //public void StartDungeon(DungeonType type)
-    //{
-    //    switch (type)
-    //    {
-    //        case DungeonType.Gold:
-    //            StartGoldDungeon(); break;
-    //    }
-    //}
 }

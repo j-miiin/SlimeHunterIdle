@@ -71,7 +71,6 @@ public class UI_SkillPanel : UI_Base
 
     private void InitButtons()
     {
-        //_optionButton.onClick.AddListener();
         _equipButton.onClick.AddListener(OnClickEquipButton);
         _allLevelUpButton.onClick.AddListener(OnClickAllLevelUpButton);
     }
@@ -95,7 +94,7 @@ public class UI_SkillPanel : UI_Base
             _equippedSlotList[i].RefreshSlot(_equippedSkillList[i]);
     }
 
-    // 장비 정보 및 버튼 세팅
+    // 스킬 정보 및 버튼 세팅
     private void SetSkillInfo(Skill skill)
     {
         _curSelectedSkill = skill;
@@ -108,10 +107,9 @@ public class UI_SkillPanel : UI_Base
         _skillBaseInfo.RefreshSlot(skill);
         _skillDetailInfo.RefreshSkillInfo(skill);
 
-        // 보유한 장비일 경우
+        // 보유한 스킬일 경우
         if (isInteractable)
         {
-            //_optionButton.interactable = ;
             _equipButtonText.text = (skill.EquippedIdx != -1) ? UNEQUIP_STR : EQUIP_STR;
             _allLevelUpButton.interactable = _skillManager.IsPossibleAllLevelUp();
         }
