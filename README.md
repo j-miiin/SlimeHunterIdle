@@ -62,6 +62,10 @@
 # 트러블 슈팅
 
 #### 클릭하면 자세한 내용을 확인할 수 있습니다
+[<img width="500" alt="DataHandler" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/37c1d79c-62d2-4b8d-9070-71cd69770465">](/TroubleShooting/DataHandler로%20데이터%20관리하기.md)
 
-[<img width="260" alt="Hunt" src="https://github.com/j-miiin/SlimeHunterIdle/assets/62470991/a1097219-87a8-4409-a06a-b4d80ac740f2">](/TroubleShooting/DataHandler로%20데이터%20관리하기.md)
+<br><br>
 
+[목차로 돌아가기](#목차)
+
+<br><br>
